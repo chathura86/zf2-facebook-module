@@ -28,19 +28,11 @@ FacebookBundle is simple integration with [Facebook php-sdk](https://github.com/
 <?php
 // configs/autoload/local.php
 return array(
-    'di' => array(
-        'instance' => array(
-            'alias' => array(
-                'facebook' => 'Facebook',
-            ),
-            'facebook' => array(
-                'config' => array(
-                    'appId'                => 'your_app_id',
-                    'secret'               => 'your_secret',
-                )
-            )
-        ),
-    ),
+	// other configurations
+    'FacebookBundle' => array(
+        'appId'                => 'your_app_id',
+        'secret'               => 'your_secret',
+    )
 );
 ?>
 ```
