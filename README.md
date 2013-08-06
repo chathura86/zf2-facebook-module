@@ -1,4 +1,6 @@
-# FacebookBundle.
+# FacebookBundle. (This is a customized version and not yet suitable for general use.
+I'll update this once it is suitable for general use. How ever feel free to use it if you know what you are doing.
+
 ## Introduction
 FacebookBundle is simple integration with [Facebook php-sdk](https://github.com/facebook/facebook-php-sdk) library.
 
@@ -9,17 +11,16 @@ FacebookBundle is simple integration with [Facebook php-sdk](https://github.com/
 
 ## Installation
 
-  1. `cd my/project/directory`
-  2. Create a `composer.json` file with following content:
+  1. On your `composer.json` add:
 ``` json
 {
     "require": {
-        "widmogrod/zf2-facebook-module": "dev-master"
+        "chathura86/zf2-facebook-module": "dev-master"
     }
 }
 ```
-  3. Run `php composer.phar install`
-  4. Open ``configs/application.config.php`` and add ``'FacebookBundle'`` to your ``'modules'`` parameter.
+  2. Run `php composer.phar install`
+  3. Open ``configs/application.config.php`` and add ``'FacebookBundle'`` to your ``'modules'`` parameter.
 
 
 ## How to setup
